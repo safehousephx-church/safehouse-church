@@ -137,6 +137,24 @@
       .page-header{padding:130px 24px 56px}
     }
     @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none !important;transition:none !important}}
+
+    /* BLANKET & SWEATER DRIVE */
+    .drive-sec{background:#fff}
+    .drive-grid{display:grid;grid-template-columns:420px 1fr;gap:72px;align-items:center;max-width:1100px;margin:0 auto}
+    .drive-flyer{width:100%;border-radius:6px;box-shadow:0 24px 60px rgba(0,0,0,0.14);display:block}
+    .drive-list{list-style:none;margin:8px 0 34px;border-top:1px solid rgba(0,0,0,0.08)}
+    .drive-list li{display:flex;gap:16px;align-items:flex-start;padding:18px 0;border-bottom:1px solid rgba(0,0,0,0.08)}
+    .drive-list svg{flex-shrink:0;width:26px;height:26px;stroke:var(--gold);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;margin-top:2px}
+    .drive-lbl{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--light-gray);margin-bottom:4px}
+    .drive-val{font-family:'Montserrat',sans-serif;font-size:17px;font-weight:800;color:var(--dark);line-height:1.35}
+    .drive-val span{display:block;font-family:'Open Sans',sans-serif;font-weight:400;font-size:15px;color:var(--charcoal)}
+    .drive-btns{display:flex;gap:14px;flex-wrap:wrap}
+    .drive-btn{font-family:'Montserrat',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;text-decoration:none;padding:16px 30px;border-radius:3px;transition:background .2s,color .2s,border-color .2s}
+    .drive-btn.solid{background:var(--gold);color:#fff}
+    .drive-btn.solid:hover{background:var(--deep-gold)}
+    .drive-btn.line{border:2px solid var(--gold);color:var(--deep-gold)}
+    .drive-btn.line:hover{background:var(--gold);color:#fff}
+    @media(max-width:900px){.drive-grid{grid-template-columns:1fr;gap:40px}.drive-flyer{max-width:420px;margin:0 auto}}
   </style>
 </head>
 <body>
@@ -175,6 +193,27 @@
     <p>Real people. Real needs. Real impact. At Safe House Church, faith doesn't stop at our walls&mdash;it moves into our community through Serve Teams, homeless outreach, and special events that meet real needs with real love.</p>
   </div>
 </header>
+
+<!-- ====== BLANKET & SWEATER DRIVE ====== -->
+<section class="sec drive-sec" id="blanket-drive">
+  <div class="drive-grid">
+    <img class="drive-flyer" src="images/blanket-sweater-drive.jpg" alt="Homeless Initiative Blanket and Sweater Drive flyer. Collecting blankets and sweaters each Sunday at 1:30 PM before service at Safe House Church, 4700 N 51st Ave, Ste 1, Phoenix, AZ">
+    <div>
+      <div class="eyebrow">Homeless Initiative &middot; Happening Now</div>
+      <h2 class="sec-title">Blanket &amp; Sweater Drive</h2>
+      <p class="sec-sub" style="margin-bottom:28px">Help us keep our community warm this season. Bring your blankets and sweaters, and we'll get them into the hands of neighbors experiencing homelessness across Phoenix.</p>
+      <ul class="drive-list">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M8 2v4M16 2v4"/></svg><div><div class="drive-lbl">When</div><div class="drive-val">Every Sunday<span>We're collecting blankets and sweaters each week</span></div></div></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><div class="drive-lbl">Drop-Off Time</div><div class="drive-val">1:30 PM<span>Before Sunday service</span></div></div></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0112 2.5a7 7 0 017 7C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><div><div class="drive-lbl">Where</div><div class="drive-val">Safe House Church<span>4700 N 51st Ave, Ste 1, Phoenix, AZ</span></div></div></li>
+      </ul>
+      <div class="drive-btns">
+        <a class="drive-btn solid" href="https://www.google.com/maps/search/?api=1&amp;query=4700+N+51st+Ave+Ste+1+Phoenix+AZ" target="_blank" rel="noopener">Get Directions</a>
+        <a class="drive-btn line" href="#signup">Help Serve</a>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- ====== OPPORTUNITIES ====== -->
 <section class="sec opp-sec" id="opportunities">
