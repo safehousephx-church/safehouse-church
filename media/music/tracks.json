@@ -1,0 +1,34 @@
+{
+  "_about": "Music rules for Safe House Church shorts. Pastor Matthew's direction (Nov 13, 2026): Bible study clips get CCM / gospel worship instrumentals (CeCe Winans instrumental feel). Preaching clips: leave some with no music; when music is used it must be majestic, with a strong worship build-up. Never sad, somber, or synthesized music.",
+
+  "rules": {
+    "bible_study": "Every Bible study short gets music, using the bible_study list.",
+    "preaching": "Of the two Sunday shorts each week, make one VOICE ONLY (the most intense, preached-up moment usually works best bare) and give the other music from the preaching_majestic list. Start the track so its build-up lands under his strongest line.",
+    "volume": "Keep his voice clearly on top. For baked-in tracks use music_volume 12-16. For Instagram audio use audioVolume 15-20 and videoVolume 100.",
+    "variety": "Never use the same track twice in one week, and try not to repeat a track two weeks in a row."
+  },
+
+  "files": {
+    "_about": "Real track files Pastor Matthew has approved. They are baked into the video for every platform (TikTok, YouTube, Facebook and Instagram). Each entry needs: title, url (hosted under https://safehousechurch.org/media/music/), list (bible_study or preaching_majestic), source/license. Empty until he sends tracks.",
+    "bible_study": [],
+    "preaching_majestic": []
+  },
+
+  "instagram_audio": {
+    "_about": "Instagram's licensed music library, added at posting time through Metricool (instagramData.audioConfiguration.audioId). Instagram Reels only. Use it when the short has no baked-in track. A short that already has a baked-in track does not also get Instagram audio. Picked from catalog search; Pastor Matthew can remove any he doesn't like.",
+    "bible_study": [
+      {"audioId": "326419273084628", "title": "Revival", "artist": "Austin Cannon"},
+      {"audioId": "198902316154823", "title": "Hymn For Peace", "artist": "Brent Bourgeois"},
+      {"audioId": "555876673032824", "title": "Oh How I Love Jesus", "artist": "Peter Collins"},
+      {"audioId": "532177198275423", "title": "Amazing Grace", "artist": "Peter Collins"},
+      {"audioId": "1304451697253803", "title": "Piano Hope", "artist": "Sam Marshall"},
+      {"audioId": "273022093920310", "title": "Precious", "artist": "Michael James Greco"}
+    ],
+    "preaching_majestic": [
+      {"audioId": "28115832308013413", "title": "To The Heroes", "artist": "Vestevent"},
+      {"audioId": "334321157510121", "title": "Inevitable Waves", "artist": "Paul Fowler"},
+      {"audioId": "605809854062415", "title": "Rise & Shine", "artist": "Peter Collins"},
+      {"audioId": "565118654020261", "title": "Inspired To Shine", "artist": "Global Genius"}
+    ]
+  }
+}
