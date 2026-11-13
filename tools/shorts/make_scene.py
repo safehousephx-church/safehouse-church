@@ -85,16 +85,20 @@ scene = {
          "content": {"kind": "text", "text": cfg["footer1"], "font": {"family": "mbold", "size": 32}, "color": "#D6A54A", "alignment": "center"}},
         {"id": "footer2", "start": 0, "duration": D, "transform": {"position": [540, 1638]},
          "content": {"kind": "text", "text": cfg.get("footer2", "Pastor Matthew Hughes  ·  @SafeHousePHX"), "font": {"family": "mbold", "size": 28}, "color": "#FFFFFFCC", "alignment": "center"}},
-        {"id": "music", "start": 0, "duration": D,
-         "content": {"kind": "audio", "assetId": "music", "volume": mv},
-         "animations": {"volume": {"keyframes": [
-             {"time": 0, "value": 0}, {"time": 2, "value": mv},
-             {"time": round(fade_out_start, 3), "value": mv}, {"time": round(D - 0.2, 3), "value": 0}]}}},
     ],
 }
 if not cfg.get("music"):
     # No approved music track: keep his voice only.
     scene["layers"] = [l for l in scene["layers"] if l["id"] != "music"]
     scene["assets"].pop("music", None)
+if cfg.get("music"):
+    # Only use real, licensed tracks from media/music/ (see tools/shorts/README.md). Never generated beds.
+    scene["assets"]["music"] = {"type": "audio", "uri": cfg["music"]}
+    fade_in = 1.5
+    scene["layers"].append({"id": "music", "start": 0, "duration": D,
+        "content": {"kind": "audio", "assetId": "music", "trim": {"in": cfg.get("music_start", 0), "out": cfg.get("music_start", 0) + D}, "volume": mv},
+        "animations": {"volume": {"keyframes": [
+            {"time": 0, "value": 0}, {"time": fade_in, "value": mv},
+            {"time": round(fade_out_start, 3), "value": mv}, {"time": round(D - 0.2, 3), "value": 0}]}}})
 json.dump(scene, open(sys.argv[2], "w"))
 print(f"ok: {len(segs)} caption chunks, duration {D}s")
