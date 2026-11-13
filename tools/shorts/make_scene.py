@@ -13,7 +13,7 @@ config.json:
   "title2": "SHUT IN.",                # gold headline line (short, ALL CAPS)
   "footer1": "From Sunday's message: Faithfulness",
   "footer2": "Pastor Matthew Hughes  ·  @SafeHousePHX",
-  "music": "https://safehousechurch.org/media/worship-bed-01.mp3",
+  "music": "https://safehousechurch.org/media/music/<track>.mp3",  # omit for voice only
   "music_volume": 14
 }
 """
@@ -59,7 +59,7 @@ scene = {
     "assets": {
         "svc": {"type": "video", "uri": cfg["video"]},
         "logo": {"type": "image", "uri": "https://safehousechurch.org/images/logo-transparent.png", "width": 352, "height": 273},
-        "music": {"type": "audio", "uri": cfg.get("music", "https://safehousechurch.org/media/worship-bed-01.mp3")},
+        "music": {"type": "audio", "uri": cfg.get("music") or ""},
         "mblack": {"type": "font", "name": "Montserrat Black", "uri": "https://pastatic.picsart.com/68457958041436093893.ttf"},
         "mbold": {"type": "font", "name": "Montserrat Bold", "uri": "https://pastatic.picsart.com/99196933912641114096.ttf"},
     },
@@ -92,5 +92,9 @@ scene = {
              {"time": round(fade_out_start, 3), "value": mv}, {"time": round(D - 0.2, 3), "value": 0}]}}},
     ],
 }
+if not cfg.get("music"):
+    # No approved music track: keep his voice only.
+    scene["layers"] = [l for l in scene["layers"] if l["id"] != "music"]
+    scene["assets"].pop("music", None)
 json.dump(scene, open(sys.argv[2], "w"))
 print(f"ok: {len(segs)} caption chunks, duration {D}s")
