@@ -59,7 +59,6 @@ scene = {
     "assets": {
         "svc": {"type": "video", "uri": cfg["video"]},
         "logo": {"type": "image", "uri": "https://safehousechurch.org/images/logo-transparent.png", "width": 352, "height": 273},
-        "music": {"type": "audio", "uri": cfg.get("music") or ""},
         "mblack": {"type": "font", "name": "Montserrat Black", "uri": "https://pastatic.picsart.com/68457958041436093893.ttf"},
         "mbold": {"type": "font", "name": "Montserrat Bold", "uri": "https://pastatic.picsart.com/99196933912641114096.ttf"},
     },
@@ -87,10 +86,6 @@ scene = {
          "content": {"kind": "text", "text": cfg.get("footer2", "Pastor Matthew Hughes  ·  @SafeHousePHX"), "font": {"family": "mbold", "size": 28}, "color": "#FFFFFFCC", "alignment": "center"}},
     ],
 }
-if not cfg.get("music"):
-    # No approved music track: keep his voice only.
-    scene["layers"] = [l for l in scene["layers"] if l["id"] != "music"]
-    scene["assets"].pop("music", None)
 if cfg.get("music"):
     # Only use real, licensed tracks from media/music/ (see tools/shorts/README.md). Never generated beds.
     scene["assets"]["music"] = {"type": "audio", "uri": cfg["music"]}
