@@ -35,6 +35,24 @@
         "mood": "soft, hopeful, sits well under talking",
         "notes": "Good for heavier teaching moments. Start 0-80.",
         "license": "Pixabay Content License (free for commercial use, no attribution). Uploaded by Pastor Matthew 2026-11-13."
+      },
+      {
+        "title": "Devotional",
+        "artist": "the_mountain",
+        "url": "https://raw.githubusercontent.com/safehousephx-church/safehouse-church/main/media/music/bs-devotional-the-mountain.mp3",
+        "seconds": 122,
+        "mood": "warm devotional worship that opens up",
+        "notes": "Quiet 0-20s, full and steady 20-95s. Start at 18-20 so it's full from the first word; clip must end before track time ~95s.",
+        "license": "Pixabay Content License (free for commercial use, no attribution). Uploaded by Pastor Matthew 2026-11-13."
+      },
+      {
+        "title": "Devotional (Short)",
+        "artist": "thesilentthunder",
+        "url": "https://raw.githubusercontent.com/safehousephx-church/safehouse-church/main/media/music/bs-devotional-short.mp3",
+        "seconds": 68,
+        "mood": "gentle devotional, steady",
+        "notes": "Only 68s long: use for clips of 65s or less, starting at 0.",
+        "license": "Pixabay Content License (free for commercial use, no attribution). Uploaded by Pastor Matthew 2026-11-13."
       }
     ],
     "preaching_majestic": [
@@ -74,6 +92,51 @@
         "seconds": 157,
         "mood": "hard, energetic trap beat",
         "notes": "For energetic promo/announcement videos only, NOT under preaching or teaching.",
+        "license": "Pixabay Content License (free for commercial use, no attribution). Uploaded by Pastor Matthew 2026-11-13."
+      },
+      {
+        "title": "Fashion Week (Trapsoul)",
+        "artist": "jaystacksbeats",
+        "url": "https://raw.githubusercontent.com/safehousephx-church/safehouse-church/main/media/music/promo-trapsoul.mp3",
+        "seconds": 130,
+        "mood": "smooth trapsoul groove",
+        "notes": "Promo/announcement videos only.",
+        "license": "Pixabay Content License (free for commercial use, no attribution). Uploaded by Pastor Matthew 2026-11-13."
+      },
+      {
+        "title": "R&B Type Beat",
+        "artist": "gr0za",
+        "url": "https://raw.githubusercontent.com/safehousephx-church/safehouse-church/main/media/music/promo-rnb-beat.mp3",
+        "seconds": 145,
+        "mood": "R&B groove",
+        "notes": "Promo/announcement videos only.",
+        "license": "Pixabay Content License (free for commercial use, no attribution). Uploaded by Pastor Matthew 2026-11-13."
+      },
+      {
+        "title": "Drill Beat London",
+        "artist": "echoes_of_lumen",
+        "url": "https://raw.githubusercontent.com/safehousephx-church/safehouse-church/main/media/music/promo-drill-beat.mp3",
+        "seconds": 138,
+        "mood": "hard, aggressive drill",
+        "notes": "High-energy promos only; never under teaching.",
+        "license": "Pixabay Content License (free for commercial use, no attribution). Uploaded by Pastor Matthew 2026-11-13."
+      },
+      {
+        "title": "Video Game Music",
+        "artist": "gr0za",
+        "url": "https://raw.githubusercontent.com/safehousephx-church/safehouse-church/main/media/music/promo-video-game.mp3",
+        "seconds": 891,
+        "mood": "upbeat, playful, game-style",
+        "notes": "Youth/fun event promos only. Long loop; start anywhere.",
+        "license": "Pixabay Content License (free for commercial use, no attribution). Uploaded by Pastor Matthew 2026-11-13."
+      },
+      {
+        "title": "Racing Music",
+        "artist": "gr0za",
+        "url": "https://raw.githubusercontent.com/safehousephx-church/safehouse-church/main/media/music/promo-racing.mp3",
+        "seconds": 891,
+        "mood": "fast, driving energy",
+        "notes": "High-energy event promos only. Long loop; start anywhere.",
         "license": "Pixabay Content License (free for commercial use, no attribution). Uploaded by Pastor Matthew 2026-11-13."
       }
     ]
