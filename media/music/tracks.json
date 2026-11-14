@@ -7,12 +7,12 @@
     "variety": "Never use the same track twice in one week, and try not to repeat a track two weeks in a row."
   },
   "files": {
-    "_about": "Real track files Pastor Matthew has approved. They are baked into the video for every platform (TikTok, YouTube, Facebook and Instagram). Each entry needs: title, url (hosted under https://safehousechurch.org/media/music/), list (bible_study or preaching_majestic), source/license. Empty until he sends tracks.",
+    "_about": "Real track files Pastor Matthew has approved. They are baked into the video for every platform (TikTok, YouTube, Facebook and Instagram). Each entry needs: title, url (hosted under https://raw.githubusercontent.com/safehousephx-church/safehouse-church/main/media/music/), list (bible_study or preaching_majestic), source/license. Filled Nov 13, 2026.",
     "bible_study": [
       {
         "title": "Beautiful Christian Worship – Piano, Peaceful Joy",
         "artist": "jessequinnmedia",
-        "url": "https://safehousechurch.org/media/music/bs-worship-piano-peaceful-joy.mp3",
+        "url": "https://raw.githubusercontent.com/safehousephx-church/safehouse-church/main/media/music/bs-worship-piano-peaceful-joy.mp3",
         "seconds": 323,
         "mood": "gentle, peaceful worship piano",
         "notes": "Steady; dips quieter around 40-55s and 120-135s. Start at 0 or 60.",
@@ -21,7 +21,7 @@
       {
         "title": "R&B Gospel",
         "artist": "icsilviu",
-        "url": "https://safehousechurch.org/media/music/bs-rnb-gospel.mp3",
+        "url": "https://raw.githubusercontent.com/safehousephx-church/safehouse-church/main/media/music/bs-rnb-gospel.mp3",
         "seconds": 203,
         "mood": "warm, soulful R&B gospel groove",
         "notes": "Steady energy all the way through; start anywhere 0-110.",
@@ -30,7 +30,7 @@
       {
         "title": "Background Music for Narration & Podcast",
         "artist": "sounovamusic",
-        "url": "https://safehousechurch.org/media/music/bs-soft-narration.mp3",
+        "url": "https://raw.githubusercontent.com/safehousephx-church/safehouse-church/main/media/music/bs-soft-narration.mp3",
         "seconds": 171,
         "mood": "soft, hopeful, sits well under talking",
         "notes": "Good for heavier teaching moments. Start 0-80.",
@@ -41,7 +41,7 @@
       {
         "title": "Inspiring Peace Adventure – Cinematic Trailer",
         "artist": "cloudsystem",
-        "url": "https://safehousechurch.org/media/music/pr-cinematic-inspiring-trailer.mp3",
+        "url": "https://raw.githubusercontent.com/safehousephx-church/safehouse-church/main/media/music/pr-cinematic-inspiring-trailer.mp3",
         "seconds": 132,
         "mood": "majestic cinematic build",
         "notes": "Builds from quiet over the first ~30s, then stays big until ~100s. To land the swell under his strongest line at clip time T, set music_start = max(0, 30 - T). Clip must end before track time ~100s.",
@@ -50,7 +50,7 @@
       {
         "title": "Gospel Sound – Heaven's Call",
         "artist": "tech_oasis",
-        "url": "https://safehousechurch.org/media/music/pr-gospel-heavens-call.mp3",
+        "url": "https://raw.githubusercontent.com/safehousephx-church/safehouse-church/main/media/music/pr-gospel-heavens-call.mp3",
         "seconds": 120,
         "mood": "gospel worship build",
         "notes": "Quiet intro 0-20s, builds 20-35s, full from ~35s to ~80s. Set music_start = max(0, 35 - T) so the full section hits at clip time T.",
@@ -61,7 +61,7 @@
       {
         "title": "Intro Podcast",
         "artist": "atlasaudio",
-        "url": "https://safehousechurch.org/media/music/promo-intro-podcast.mp3",
+        "url": "https://raw.githubusercontent.com/safehousephx-church/safehouse-church/main/media/music/promo-intro-podcast.mp3",
         "seconds": 70,
         "mood": "punchy intro sting",
         "notes": "For promo/announcement videos (Faith Builders List, outreach), NOT for sermon or Bible study shorts.",
@@ -70,7 +70,7 @@
       {
         "title": "Trap Beat",
         "artist": "vaitsez",
-        "url": "https://safehousechurch.org/media/music/promo-trap-beat.mp3",
+        "url": "https://raw.githubusercontent.com/safehousephx-church/safehouse-church/main/media/music/promo-trap-beat.mp3",
         "seconds": 157,
         "mood": "hard, energetic trap beat",
         "notes": "For energetic promo/announcement videos only, NOT under preaching or teaching.",
