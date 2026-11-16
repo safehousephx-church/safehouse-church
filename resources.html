@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resources – Free Guides, Devotionals &amp; Podcast | Safe House Church</title>
+  <meta name="description" content="Free resources from Safe House Church in Phoenix: the Begin Again guide for new believers, the 10 Days to Build Bold Faith devotional, the Safe Zone Podcast, Sunday messages, and Wednesday Bible study.">
+  <meta property="og:title" content="Resources to Grow Your Faith | Safe House Church">
+  <meta property="og:description" content="Free guides, devotionals, messages, and the Safe Zone Podcast from Pastor Matthew Hughes.">
+  <meta property="og:image" content="https://safehousechurch.org/images/begin-again-cover.jpg">
+  <meta property="og:url" content="https://safehousechurch.org/resources">
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--gold:#C7922C;--deep-gold:#B07A1F;--light-gold:#D6A54A;--charcoal:#4A4A4A;--off-white:#F8F8F8;--cream:#F4EFE6;--dark:#1C1C1C}
+    body{font-family:'Open Sans',sans-serif;color:var(--charcoal);background:#fff;overflow-x:hidden}
+    nav{position:sticky;top:0;z-index:100;background:rgba(28,28,28,0.97);padding:0 60px;display:flex;align-items:center;justify-content:space-between;height:78px;border-bottom:1px solid rgba(199,146,44,0.2)}
+    nav img{height:52px;width:auto;display:block}
+    .nav-back{color:#fff;text-decoration:none;font-family:'Montserrat',sans-serif;font-size:11px;font-weight:700;letter-spacing:1.8px;text-transform:uppercase}
+    .nav-back:hover{color:var(--light-gold)}
+
+    .eyebrow,.sec-eyebrow{font-family:'Montserrat',sans-serif;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;display:flex;align-items:center;gap:12px;margin-bottom:16px}
+    .eyebrow{color:var(--light-gold)}.eyebrow::before{content:'';width:30px;height:2px;background:var(--light-gold)}
+    .sec-eyebrow{color:var(--gold)}.sec-eyebrow::before{content:'';width:30px;height:2px;background:var(--gold)}
+    h1{font-family:'Montserrat',sans-serif;font-size:clamp(34px,5vw,60px);font-weight:900;color:#fff;line-height:1.02;text-transform:uppercase;letter-spacing:-0.5px;margin-bottom:22px}
+    h1 em,h2 em{font-style:normal;color:var(--gold)}
+    h1 em{color:var(--light-gold)}
+    h2{font-family:'Montserrat',sans-serif;font-size:clamp(26px,3.4vw,40px);font-weight:900;text-transform:uppercase;color:var(--dark);line-height:1.08;margin-bottom:14px}
+    .sec-sub{font-size:16px;line-height:1.7;max-width:640px;margin-bottom:40px}
+    .wrap{max-width:1100px;margin:0 auto}
+
+    .hero{background:var(--dark);padding:90px 80px 80px}
+    .lead{color:rgba(255,255,255,0.72);font-size:18px;line-height:1.75;max-width:640px}
+    .jump{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+    .jump a{border:2px solid rgba(255,255,255,0.3);color:#fff;font-family:'Montserrat',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;text-decoration:none;padding:13px 22px;border-radius:3px;transition:border-color .2s,color .2s}
+    .jump a:hover{border-color:var(--light-gold);color:var(--light-gold)}
+
+    .sec{padding:90px 80px}
+    .sec.alt{background:var(--off-white)}
+
+    /* featured free downloads */
+    .feature{display:grid;grid-template-columns:260px 1fr;gap:56px;align-items:center;background:#fff;border-radius:6px;padding:40px;box-shadow:0 18px 50px rgba(0,0,0,0.07);margin-bottom:28px}
+    .feature img{width:100%;border-radius:4px;box-shadow:0 20px 45px rgba(0,0,0,0.25);display:block}
+    .tag{display:inline-block;background:var(--cream);color:var(--deep-gold);font-family:'Montserrat',sans-serif;font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;padding:7px 12px;border-radius:3px;margin-bottom:14px}
+    .feature h3{font-family:'Montserrat',sans-serif;font-size:clamp(22px,2.6vw,30px);font-weight:900;text-transform:uppercase;color:var(--dark);margin-bottom:8px;line-height:1.1}
+    .for{font-family:'Montserrat',sans-serif;font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);margin-bottom:16px}
+    .feature p{font-size:16px;line-height:1.75;margin-bottom:18px}
+    .points{list-style:none;margin:0 0 26px;display:grid;gap:8px}
+    .points li{font-size:15px;line-height:1.5;padding-left:26px;position:relative}
+    .points li::before{content:'';position:absolute;left:0;top:7px;width:12px;height:12px;border-radius:50%;background:var(--gold)}
+
+    .btn{display:inline-block;background:var(--gold);color:#fff;font-family:'Montserrat',sans-serif;font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase;text-decoration:none;padding:17px 30px;border-radius:3px;transition:background .2s}
+    .btn:hover{background:var(--deep-gold)}
+    .btn.dark{background:var(--dark)}.btn.dark:hover{background:#000}
+    .btn-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+    .free{font-size:13px;color:#8a8a8a}
+
+    /* cards */
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .card{background:#fff;border-radius:6px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 12px 34px rgba(0,0,0,0.06)}
+    .sec.alt .card{background:#fff}
+    .card-img{aspect-ratio:1/1;width:100%;object-fit:cover;display:block;background:var(--dark)}
+    .card-body{padding:28px 26px 30px;display:flex;flex-direction:column;flex:1}
+    .card h3{font-family:'Montserrat',sans-serif;font-size:18px;font-weight:900;text-transform:uppercase;color:var(--dark);margin-bottom:6px;letter-spacing:.3px}
+    .when{font-family:'Montserrat',sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);margin-bottom:14px}
+    .card p{font-size:15px;line-height:1.7;margin-bottom:22px;flex:1}
+    .card .btn{text-align:center;padding:15px 20px;font-size:11px}
+    .planted-art{aspect-ratio:1/1;background:var(--cream);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px;position:relative}
+    .planted-art small{font-family:'Montserrat',sans-serif;font-size:10px;font-weight:800;letter-spacing:3px;color:var(--charcoal);margin-bottom:10px}
+    .planted-art b{font-family:'Montserrat',sans-serif;font-size:46px;font-weight:900;letter-spacing:4px;color:var(--dark);text-transform:uppercase}
+    .planted-art span{width:46px;height:3px;background:var(--gold);margin:14px 0}
+    .planted-art i{font-style:normal;font-size:14px;color:var(--charcoal)}
+
+    /* promo band */
+    .promo{background:var(--gold);padding:70px 80px;text-align:center}
+    .promo h2{color:#fff;margin-bottom:12px}
+    .promo p{color:rgba(255,255,255,0.9);font-size:17px;line-height:1.7;max-width:640px;margin:0 auto 28px}
+    .promo .btn{background:var(--dark)}.promo .btn:hover{background:#000}
+    .promo .btn.ghost{background:transparent;border:2px solid #fff}
+    .promo .btn-row{justify-content:center}
+
+    footer{background:#0F0F0F;padding:36px 24px;text-align:center}
+    footer p{color:rgba(255,255,255,0.35);font-size:13px}
+    footer a{color:var(--light-gold);text-decoration:none}
+
+    @media(max-width:900px){
+      nav{padding:0 24px}
+      .hero{padding:56px 24px 56px}
+      .sec{padding:64px 24px}.promo{padding:56px 24px}
+      .feature{grid-template-columns:1fr;gap:28px;padding:28px}
+      .feature img{max-width:220px;margin:0 auto}
+      .cards{grid-template-columns:1fr}
+      .btn{width:100%;text-align:center}
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html"><img src="images/logo.png" alt="Safe House Church"></a>
+  <a href="index.html" class="nav-back">← Back to Home</a>
+</nav>
+
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Resources</div>
+    <h1>Grow Your Faith <em>All Week Long</em></h1>
+    <p class="lead">Free guides, devotionals, messages, and our podcast from Pastor Matthew Hughes and Safe House Church. Wherever you are in your walk with God, there's something here to help you take your next step.</p>
+    <div class="jump">
+      <a href="#free">Free Downloads</a>
+      <a href="#books">Books</a>
+      <a href="#listen">Watch &amp; Listen</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="free">
+  <div class="wrap">
+    <div class="sec-eyebrow">Free Downloads</div>
+    <h2>Start Here, <em>Free</em></h2>
+    <p class="sec-sub">Enter your name and email and download instantly. You'll also get a few short emails from Pastor Matthew to encourage you along the way.</p>
+
+    <div class="feature">
+      <a href="begin-again.html"><img src="images/begin-again-cover.jpg" alt="Begin Again new believer's guide cover" loading="lazy"></a>
+      <div>
+        <span class="tag">New &middot; Free Guide</span>
+        <h3>Begin Again</h3>
+        <div class="for">For new believers</div>
+        <p>Just gave your life to Jesus, or ready to start fresh? This 13-lesson guide walks you through the foundations of your new life in Christ, one simple page at a time.</p>
+        <ul class="points">
+          <li>Salvation, baptism, communion, and the Holy Spirit</li>
+          <li>Faith, prayer, healing, giving, and Jesus' return</li>
+          <li>Key verses, discussion questions, and confessions to speak</li>
+        </ul>
+        <div class="btn-row"><a class="btn" href="begin-again.html">Get Begin Again</a><span class="free">Free PDF &middot; 19 pages</span></div>
+      </div>
+    </div>
+
+    <div class="feature">
+      <a href="devotional.html"><img src="images/bold-faith-cover.jpg" alt="10 Days to Build Bold Faith devotional cover" loading="lazy"></a>
+      <div>
+        <span class="tag">Free Devotional</span>
+        <h3>10 Days to Build Bold Faith</h3>
+        <div class="for">For every believer</div>
+        <p>Strengthen emotional discipline, develop spiritual stability, and build unshakeable faith with Pastor Matthew's 10-day devotional.</p>
+        <ul class="points">
+          <li>Walk by faith, not by feeling</li>
+          <li>Stand firm under pressure</li>
+          <li>Ten short readings you can finish in a few minutes a day</li>
+        </ul>
+        <div class="btn-row"><a class="btn" href="devotional.html">Get the Devotional</a><span class="free">Free PDF</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="books">
+  <div class="wrap">
+    <div class="sec-eyebrow">Books by Pastor Matthew</div>
+    <h2>Go <em>Deeper</em></h2>
+    <p class="sec-sub">Devotionals written to help you get rooted in God's Word and grow strong in faith.</p>
+    <div class="cards">
+      <div class="card">
+        <div class="planted-art"><small>A 51-DAY DEVOTIONAL</small><b>Planted</b><span></span><i>Pastor Matthew Hughes</i></div>
+        <div class="card-body">
+          <h3>Planted</h3>
+          <div class="when">51-Day Devotional</div>
+          <p>A 51-day journey to help you put down deep roots in God's Word, so you can stand strong in every season.</p>
+          <a class="btn dark" href="mailto:Connect@safehousechurch.org?subject=Planted%20devotional">Ask About a Copy</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="images/bold-faith-cover.jpg" alt="10 Days to Build Bold Faith cover" loading="lazy" style="object-position:top">
+        <div class="card-body">
+          <h3>10 Days to Build Bold Faith</h3>
+          <div class="when">10-Day Devotional &middot; Free</div>
+          <p>Build unshakeable faith in ten days. Download it free and start today.</p>
+          <a class="btn" href="devotional.html">Download Free</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="images/begin-again-cover.jpg" alt="Begin Again cover" loading="lazy" style="object-position:top">
+        <div class="card-body">
+          <h3>Begin Again</h3>
+          <div class="when">New Believer's Guide &middot; Free</div>
+          <p>13 lessons on the foundations of your new life in Christ. Perfect to share with a friend who just gave their life to Jesus.</p>
+          <a class="btn" href="begin-again.html">Download Free</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="listen">
+  <div class="wrap">
+    <div class="sec-eyebrow">Watch &amp; Listen</div>
+    <h2>Take the Word <em>With You</em></h2>
+    <p class="sec-sub">Catch a message on the go, at home, or in the car.</p>
+    <div class="cards">
+      <div class="card">
+        <img class="card-img" src="images/safe-zone-podcast-600.jpg" alt="Safe Zone Podcast with Pastor Matthew Hughes" loading="lazy">
+        <div class="card-body">
+          <h3>Safe Zone Podcast</h3>
+          <div class="when">New episodes every Thursday</div>
+          <p>Wednesday night Bible studies with Pastor Matthew Hughes, made for your commute. Search "Safe Zone Podcast" on Spotify or Apple Podcasts.</p>
+          <a class="btn" href="https://www.youtube.com/@SafeHouseChurchPHX" target="_blank" rel="noopener">Listen Now</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img" src="images/virtual-bible-study.jpg" alt="Virtual Bible Study, Wednesdays at 6:30 PM" loading="lazy">
+        <div class="card-body">
+          <h3>Wednesday Bible Study</h3>
+          <div class="when">Wednesdays &middot; 6:30 PM &middot; Online</div>
+          <p>Open the Word with us live every Wednesday night, from wherever you are. Bring your questions.</p>
+          <a class="btn" href="index.html#bible-study">Join Online</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="planted-art" style="background:var(--dark)"><small style="color:var(--light-gold)">EVERY SUNDAY</small><b style="color:#fff;font-size:38px">Messages</b><span></span><i style="color:rgba(255,255,255,0.7)">Live &amp; on replay</i></div>
+        <div class="card-body">
+          <h3>Sunday Messages</h3>
+          <div class="when">Sundays &middot; 2:00 PM</div>
+          <p>Missed a Sunday? Every message is on our YouTube channel. Watch live or catch up anytime.</p>
+          <a class="btn" href="https://www.youtube.com/@SafeHouseChurchPHX" target="_blank" rel="noopener">Watch on YouTube</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="promo">
+  <h2>We Saved You <em style="color:var(--dark)">a Seat</em></h2>
+  <p>Join us Sundays at 2:00 PM (doors open at 1:30) at 4700 N 51st Ave, Suite 1, Phoenix. You don't walk alone here, and you don't stay the same.</p>
+  <div class="btn-row">
+    <a class="btn" href="visit.html">Plan Your Visit</a>
+    <a class="btn ghost" href="index.html#give">Give</a>
+  </div>
+</section>
+
+<footer>
+  <p>© Safe House Church · Phoenix, AZ · <a href="index.html">safehousechurch.org</a></p>
+</footer>
+
+</body>
+</html>
