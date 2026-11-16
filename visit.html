@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Plan Your Visit – Safe House Church | Church in West Phoenix</title>
   <meta name="description" content="Visiting Safe House Church in Phoenix? Sundays at 2:00 PM (doors 1:30 PM) at 4700 N 51st Ave, Suite 1. Here's what to expect, plus a quick form so we can greet you when you arrive.">
+  <link rel="canonical" href="https://safehousechurch.org/visit">
   <meta property="og:title" content="Plan Your Visit – Safe House Church">
   <meta property="og:description" content="Sundays at 2:00 PM at 4700 N 51st Ave, Phoenix. Come as you are. We'd love to meet you.">
   <meta property="og:image" content="https://safehousechurch.org/images/logo.png">
@@ -13,19 +14,86 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Church",
-    "name": "Safe House Church",
-    "url": "https://safehousechurch.org",
-    "logo": "https://safehousechurch.org/images/logo.png",
-    "telephone": "+1-602-338-3613",
-    "email": "Connect@safehousechurch.org",
-    "address": {"@type": "PostalAddress", "streetAddress": "4700 N 51st Ave, Suite 1", "postalCode": "85031", "addressLocality": "Phoenix", "addressRegion": "AZ", "addressCountry": "US"},
-    "event": [
-      {"@type": "Event", "name": "Sunday Worship Service", "eventSchedule": {"@type": "Schedule", "byDay": "https://schema.org/Sunday", "startTime": "14:00", "repeatFrequency": "P1W"}, "location": {"@type": "Place", "name": "Safe House Church", "address": "4700 N 51st Ave, Suite 1, Phoenix, AZ 85031"}}
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@type": "Church",
+  "@id": "https://safehousechurch.org/#church",
+  "name": "Safe House Church",
+  "description": "Safe House Church is a Bible-centered church in West Phoenix led by Pastor Matthew Hughes. Come as you are, find hope, and grow bold in your faith. Sundays at 2:00 PM and online Wednesday Bible study at 6:30 PM.",
+  "url": "https://safehousechurch.org",
+  "logo": "https://safehousechurch.org/images/logo.png",
+  "image": "https://safehousechurch.org/images/logo.png",
+  "telephone": "+1-602-338-3613",
+  "email": "Connect@safehousechurch.org",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "4700 N 51st Ave, Suite 1",
+    "postalCode": "85031",
+    "addressLocality": "Phoenix",
+    "addressRegion": "AZ",
+    "addressCountry": "US"
+  },
+  "areaServed": "Phoenix, AZ",
+  "founder": {
+    "@type": "Person",
+    "name": "Matthew Hughes",
+    "jobTitle": "Pastor"
+  },
+  "employee": {
+    "@type": "Person",
+    "name": "Matthew Hughes",
+    "jobTitle": "Pastor"
+  },
+  "sameAs": [
+    "https://www.facebook.com/safehousephx",
+    "https://www.youtube.com/@SafeHouseChurchPHX",
+    "https://www.instagram.com/safehousephx"
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "https://schema.org/Sunday",
+      "opens": "13:30",
+      "closes": "15:30"
+    }
+  ],
+  "event": [
+    {
+      "@type": "Event",
+      "name": "Sunday Worship Service",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventSchedule": {
+        "@type": "Schedule",
+        "byDay": "https://schema.org/Sunday",
+        "startTime": "14:00",
+        "endTime": "15:30",
+        "repeatFrequency": "P1W",
+        "scheduleTimezone": "America/Phoenix"
+      },
+      "location": {
+        "@type": "Place",
+        "name": "Safe House Church",
+        "address": "4700 N 51st Ave, Suite 1, Phoenix, AZ 85031"
+      }
+    },
+    {
+      "@type": "Event",
+      "name": "Wednesday Virtual Bible Study",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "eventSchedule": {
+        "@type": "Schedule",
+        "byDay": "https://schema.org/Wednesday",
+        "startTime": "18:30",
+        "repeatFrequency": "P1W",
+        "scheduleTimezone": "America/Phoenix"
+      },
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://www.youtube.com/@SafeHouseChurchPHX"
+      }
+    }
+  ]
+}
   </script>
   <style>
     *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
