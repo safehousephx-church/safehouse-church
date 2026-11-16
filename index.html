@@ -4,6 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Safe House Church – Building Faith, Fostering Family</title>
+  <meta name="description" content="Safe House Church is a Bible-centered church in West Phoenix led by Pastor Matthew Hughes. Sundays at 2:00 PM at 4700 N 51st Ave, Suite 1, plus online Bible study Wednesdays at 6:30 PM. Come as you are.">
+  <link rel="canonical" href="https://safehousechurch.org/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Safe House Church">
+  <meta property="og:title" content="Safe House Church – Building Faith, Fostering Family">
+  <meta property="og:description" content="A Bible-centered church in West Phoenix. Sundays at 2:00 PM at 4700 N 51st Ave, Suite 1. Come as you are.">
+  <meta property="og:image" content="https://safehousechurch.org/images/logo.png">
+  <meta property="og:url" content="https://safehousechurch.org/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="images/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <style>
@@ -246,19 +256,86 @@
     @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none !important;transition:none !important}}
   </style>
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Church",
-    "name": "Safe House Church",
-    "url": "https://safehousechurch.org",
-    "logo": "https://safehousechurch.org/images/logo.png",
-    "telephone": "+1-602-338-3613",
-    "email": "Connect@safehousechurch.org",
-    "address": {"@type": "PostalAddress", "streetAddress": "4700 N 51st Ave, Suite 1", "postalCode": "85031", "addressLocality": "Phoenix", "addressRegion": "AZ", "addressCountry": "US"},
-    "event": [
-      {"@type": "Event", "name": "Sunday Worship Service", "eventSchedule": {"@type": "Schedule", "byDay": "https://schema.org/Sunday", "startTime": "14:00", "repeatFrequency": "P1W"}, "location": {"@type": "Place", "name": "Safe House Church", "address": "4700 N 51st Ave, Suite 1, Phoenix, AZ 85031"}}
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@type": "Church",
+  "@id": "https://safehousechurch.org/#church",
+  "name": "Safe House Church",
+  "description": "Safe House Church is a Bible-centered church in West Phoenix led by Pastor Matthew Hughes. Come as you are, find hope, and grow bold in your faith. Sundays at 2:00 PM and online Wednesday Bible study at 6:30 PM.",
+  "url": "https://safehousechurch.org",
+  "logo": "https://safehousechurch.org/images/logo.png",
+  "image": "https://safehousechurch.org/images/logo.png",
+  "telephone": "+1-602-338-3613",
+  "email": "Connect@safehousechurch.org",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "4700 N 51st Ave, Suite 1",
+    "postalCode": "85031",
+    "addressLocality": "Phoenix",
+    "addressRegion": "AZ",
+    "addressCountry": "US"
+  },
+  "areaServed": "Phoenix, AZ",
+  "founder": {
+    "@type": "Person",
+    "name": "Matthew Hughes",
+    "jobTitle": "Pastor"
+  },
+  "employee": {
+    "@type": "Person",
+    "name": "Matthew Hughes",
+    "jobTitle": "Pastor"
+  },
+  "sameAs": [
+    "https://www.facebook.com/safehousephx",
+    "https://www.youtube.com/@SafeHouseChurchPHX",
+    "https://www.instagram.com/safehousephx"
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "https://schema.org/Sunday",
+      "opens": "13:30",
+      "closes": "15:30"
+    }
+  ],
+  "event": [
+    {
+      "@type": "Event",
+      "name": "Sunday Worship Service",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventSchedule": {
+        "@type": "Schedule",
+        "byDay": "https://schema.org/Sunday",
+        "startTime": "14:00",
+        "endTime": "15:30",
+        "repeatFrequency": "P1W",
+        "scheduleTimezone": "America/Phoenix"
+      },
+      "location": {
+        "@type": "Place",
+        "name": "Safe House Church",
+        "address": "4700 N 51st Ave, Suite 1, Phoenix, AZ 85031"
+      }
+    },
+    {
+      "@type": "Event",
+      "name": "Wednesday Virtual Bible Study",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "eventSchedule": {
+        "@type": "Schedule",
+        "byDay": "https://schema.org/Wednesday",
+        "startTime": "18:30",
+        "repeatFrequency": "P1W",
+        "scheduleTimezone": "America/Phoenix"
+      },
+      "location": {
+        "@type": "VirtualLocation",
+        "url": "https://www.youtube.com/@SafeHouseChurchPHX"
+      }
+    }
+  ]
+}
   </script>
 </head>
 <body>
